@@ -57,6 +57,11 @@ mount -t glusterfs 192.168.10.10:/volume1 /mnt/glusterfs/volume1
 ## add repository and update
 apt install glusterfs-client
 
+# at the end deploy an nginx web server with persistant volume 
+kubectl create -f gluster-endpoints.yaml
+kubectl create -f gluster-pv.yaml
+kubectl create -f gluster-claim.yaml
+kubectl create -f pod.yaml
 
 
 
