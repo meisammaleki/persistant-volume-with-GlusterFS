@@ -1,13 +1,12 @@
 # persistant-volume-with-GlusterFS
-# persistant-volume-with-GlusterFS
-## https://docs.gluster.org/en/latest/Install-Guide/Install/#set-up-a-gluster-volume
-## install GlusterFS on ubuntu 20.04
-## three servers with running ubuntu 20.04
-## set hostname ( gluster0 , gluster1 , gluster2)
-## all configuration will be dploy on each three server
-## configure /etc/hosts :
-192.168.10.10 gluster0.example.com gluster0
-192.168.10.11 gluster1.example.com gluster1
+### https://docs.gluster.org/en/latest/Install-Guide/Install/#set-up-a-gluster-volume
+### install GlusterFS on ubuntu 20.04
+### three servers with running ubuntu 20.04
+### set hostname ( gluster0 , gluster1 , gluster2)
+### all configuration will be dploy on each three server
+### configure /etc/hosts :
+#### 192.168.10.10 gluster0.example.com gluster0
+#### 192.168.10.11 gluster1.example.com gluster1
 192.168.10.12 gluster2.example.com gluster2
 ## setup software Sources :
 apt update
