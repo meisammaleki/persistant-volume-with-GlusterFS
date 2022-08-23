@@ -1,4 +1,4 @@
-# persistant-volume-with-GlusterFS
+# persistent-volume-with-GlusterFS
 ### source Link: https://docs.gluster.org/en/latest/Install-Guide/Install/#set-up-a-gluster-volume
 ### install GlusterFS on ubuntu 20.04
 ### We need three servers with running ubuntu 20.04
