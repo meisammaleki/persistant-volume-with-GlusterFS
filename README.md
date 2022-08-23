@@ -6,21 +6,21 @@
 ## all configuration will be dploy on each three server
 ## configure /etc/hosts :
 
-192.168.10.10 gluster0.example.com gluster0
-192.168.10.11 gluster1.example.com gluster1
-192.168.10.12 gluster2.example.com gluster2
+- 192.168.10.10 gluster0.example.com gluster0
+- 192.168.10.11 gluster1.example.com gluster1
+- 192.168.10.12 gluster2.example.com gluster2
 
 ## setup software Sources :
-apt update
-apt install software-properties-common
-add-apt-repository ppa:gluster/glusterfs-7
-apt update
+- apt update
+- apt install software-properties-common
+- add-apt-repository ppa:gluster/glusterfs-7
+- apt update
 
 ## install glusterfs-server
-apt install glusterfs-server
-systemctl status glusterd.service
-systemctl start glusterd.service
-systemctl enable glusterd.service
+- apt install glusterfs-server
+- systemctl status glusterd.service
+- systemctl start glusterd.service
+- systemctl enable glusterd.service
 
 ## The Gluster daemon uses port 24007, so you’ll need to allow each node access to that port through the firewall of each other node in your storage pool. To do so, run the following command :
 ## run the following command on gluster0 and the on gluster1 and gluster2 (on each server allow other servers ip)
