@@ -10,6 +10,7 @@
 - 192.168.10.11 gluster1.example.com gluster1
 - 192.168.10.12 gluster2.example.com gluster2
 
+*Italic* 
 ### setup software Sources :
 - apt update
 - apt install software-properties-common
